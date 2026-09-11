@@ -1,0 +1,21 @@
+# Python / backend
+.venv/
+__pycache__/
+*.py[cod]
+*.db
+
+# Node / frontend
+node_modules/
+dist/
+
+# Segredos — o motivo real deste arquivo existir
+.env
+.env.local
+*.env
+
+# Logs
+*.log
+
+# Sistema
+.DS_Store
+Thumbs.db
