@@ -37,7 +37,7 @@ app = FastAPI(
 ORIGENS_PERMITIDAS = [
     "http://localhost:5173",
     "http://127.0.0.1:5173",
-    # "https://SEU-APP.azurestaticapps.net",
+    "https://proud-sky-0c7380510.6.azurestaticapps.net",
 ]
 
 app.add_middleware(
