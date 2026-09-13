@@ -16,6 +16,11 @@ dist/
 # Logs
 *.log
 
+# Scripts de deploy locais — deploy-backend.ps1 tem a senha do SQL embutida;
+# deploy-code.ps1 nao tem segredo mas tambem nao faz parte da entrega.
+deploy-backend.ps1
+deploy-code.ps1
+
 # Sistema
 .DS_Store
 Thumbs.db
